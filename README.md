@@ -4,7 +4,7 @@
 
 This repository contains the following program(s):
 
-- `HW13/KMeans.x` : A very simple implementation of the K-means clustering
+- `HW14/KMeans.x` : A very simple implementation of the K-means clustering
                     algorithm, which generates its own randomized data then
                     sorts into clusters and plots the results. [C++]
 
