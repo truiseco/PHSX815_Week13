@@ -57,7 +57,7 @@ struct Point {
 // Begin primary program function
 int main(int argc, char** argv){
 
-  // Data generation parameters and storage objects
+  // Data generation parameter storage objects
   double means[numClusters][numDims];
   double stdevs[numClusters][numDims];
   vector<Point> data;
@@ -150,7 +150,7 @@ int main(int argc, char** argv){
   canvas->DrawFrame(dimMin,dimMin,dimMax,dimMax);
   canvas->GetFrame()->SetBorderSize(12);
 
-  // Array of groovy colors for histogram fill
+  // Array of groovy colors
   Int_t colors[9] = {TColor::GetColor("#f58582"),
                      TColor::GetColor("#dd9a44"),
                      TColor::GetColor("#7abd42"),
